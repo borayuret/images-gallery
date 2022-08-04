@@ -3,11 +3,16 @@ import Header from './components/Header';
 import Search from './components/Search';
 
 
-function App() {
+const handleSearchSubmit = (e) => {
+  e.preventDefault()
+  console.log(e.target[0].value)
+}
+
+const App = () => {
   return (
     <div className="App">
       <Header title='Images Gallery'/>
-      <Search />
+      <Search handleSubmit = {handleSearchSubmit} />
     </div>
   );
 }
