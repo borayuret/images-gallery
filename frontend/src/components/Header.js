@@ -1,10 +1,10 @@
-import React from "react";
-import { Navbar, Container } from "react-bootstrap";
+import React from 'react';
+import { Navbar, Container } from 'react-bootstrap';
 
-import Button from "react-bootstrap/Button";
+import Button from 'react-bootstrap/Button';
 
 const navbarStyle = {
-  backgroundColor: "lightblue",
+  backgroundColor: 'lightblue',
 };
 
 const Header = (props) => {
